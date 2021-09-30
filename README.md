@@ -5,7 +5,7 @@ The following commands need to be executed in Bash or Command Line.
 
 Clone the repository
 
-### `git clone https://github.com/znerfii/MobileAuth`
+### `git clone https://github.com/znerf/MobileAuth`
 
 Change directory
 
@@ -15,20 +15,9 @@ Install backend dependencies
 
 ### `npm install`
 
-Install client dependencies
 
-### `cd client`
-### `npm install`
+### `npm start`
 
-Change back to main directory
-### `cd ..`
-
-Run the app
-
-### `npm run dev`
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-# MobileAuth
 
 
 # Some points
