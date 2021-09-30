@@ -20,7 +20,7 @@ app.post('/CheckAuth', (req, res) => {
 
   //checkif Null check if null and other jpaitei parameter
   if (req.body.Code ===  0 ){
-    return res.ystatus(400).json({ response: 'notaccepted' });
+    return res.status(400).json({ response: 'notaccepted' });
   }
 
 
