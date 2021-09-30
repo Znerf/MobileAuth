@@ -48,9 +48,6 @@ const Verify = (props) => {
          var selectedcheck= document.querySelector(querycheck)
          selectedcheck.value=num
 
-         console.log(MAX_FIELD)
-         console.log(Code)
-         console.log(num)
          var temp= Math.floor(Code/Math.pow(10,MAX_FIELD-id))%10
          var temp2= Code-Math.pow(10,MAX_FIELD-id)*temp
          var temp3= temp2+Math.pow(10,MAX_FIELD-id)*parseInt(num)
