@@ -44,7 +44,8 @@ function codeGenerator(){
   */
   return 123456;
 }
+port=8080
+const PORT = port || 3000;
 
-  
 
-app.listen(8080, () => console.log('Server Started...'));
+app.listen(port, () => console.log('Server Started...'));
