@@ -47,4 +47,4 @@ function codeGenerator(){
 
   
 
-app.listen(8080, () => console.log('Server Started...'));
+app.listen(80, () => console.log('Server Started...'));
